@@ -1,0 +1,13 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+vapi-runtime = {path = "./lib/vapi-runtime/vapi_runtime-2.9.0-py2.py3-none-any.whl"}
+vapi-common-client = {path = "./lib/vapi-common-client/vapi_common_client-2.9.0-py2.py3-none-any.whl"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
